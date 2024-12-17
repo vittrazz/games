@@ -13,7 +13,7 @@ async def echo_handler(message: types.Message) -> None:
     
     
 async def main() -> None:
-    token = '7450473623:AAHIFGiixHNZ1Z3DzAtFdlOFrOHuNoGD25M'
+    token = '7450473623:AAGBv8i00kTXghKLPIVdwWqVy3C3m9pi0LU'
     bot = Bot(token)
     await dp.start_polling(bot)
     
